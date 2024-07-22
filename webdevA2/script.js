@@ -70,8 +70,8 @@ function toggleFS()
 		enterFullscreen();
 	}
 }
-fstoggle.addEventListener("click",toggleFS)
-fstoggle.addEventListener("touchstart", toggleFS)
+fstoggle.addEventListener("click",toggleFS);
+fstoggle.addEventListener("touchstart", toggleFS);
 
 /*Listen for clicks on the buttons, assign anonymous
 eventhandler functions to call show function*/
